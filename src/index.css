@@ -1,0 +1,810 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+#Home{
+  background-color: rgba(13, 1, 49, 0.973);
+  color: #fff;
+  font-family: 'Belanosima', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Work Sans', sans-serif;
+  padding-top: 8rem;
+  text-align: center;
+}
+#Home-package{
+  background-color: #fff;
+  color: #000000;
+  font-family: 'Belanosima', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Work Sans', sans-serif;
+  padding-top: 8rem;
+  text-align: center;
+}
+#Navbar{
+  padding-left: 3rem;
+  padding-right: 3rem;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  background:rgba(13, 1, 49, 0.973) ;
+  width: 100%;
+  z-index: 1;
+  color: #fff;
+  font-family: 'Belanosima', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Playfair Display', serif;
+}
+#Navbar ul{
+  display: flex;
+  gap: 3rem;
+}
+#Navbar li{
+  list-style: none;
+  padding-top: .5rem;
+}
+#Navbar .Schedule-a-call{
+  height: 40px;
+  width: 200px;
+  margin-right: 10rem;
+  margin-top: 1rem;
+  color: #fff;
+  font-size: 16px;
+  background: rgba(130, 130, 130, 0.568);
+  border-radius: 10px;
+  border: 0;
+  backdrop-filter: blur(8.2px);
+  -webkit-backdrop-filter: blur(8.2px);
+}
+.EXPERTS{
+  padding-top: 4rem;
+  color: darkslateblue;
+  font-size: 18px;
+}
+h1{
+  font-size: 75px;
+  line-height: 3rem;
+}
+.powerhouse{
+  background: linear-gradient(to right, red , blue);
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+  height: 60px;
+}
+.paragraph{
+  padding-top: 2rem;
+}
+p{
+  font-size: 17px;
+}
+img{
+  width: 100px;
+  padding-left: 2rem;
+}
+.logos {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+}
+.logos-slide1 {
+  display: inline-block;
+  animation: 35s slide infinite linear;
+}
+.logos-slide2 {
+  display: none;
+  animation: 35s slide infinite linear;
+}
+#Navbar .logo{
+  height: 70px;
+  width: 70px;
+}
+#Navbar a{
+ text-decoration: none;
+ color: #fff;
+}
+#Navbar a:hover{
+  text-decoration: none;
+  color: #cac9c9;
+ }
+#services{
+  background-color: #fff;
+  padding-top: 10rem;
+  display: grid;
+  justify-content: center;
+  overflow: hidden;
+}
+.web-development{
+  display: flex;
+  padding-top: 8rem;
+  padding-bottom: 3rem;
+}
+.web-development-image{
+  width: 700px;
+}
+.web-development-content{
+  text-align: center;
+  padding: 3rem;
+  width: 500px;
+}
+.web-development-paragraph{
+  font-size: 25px;
+  color: rgb(115, 117, 117);
+}
+.web-development-h2{
+  font-size: 40px;
+  color: rgb(98, 99, 99);
+}
+.web-development-image-secret{
+  display: none;
+}
+#pricing-main{
+  background-color: #fff;
+}
+#pricing{
+  background-color: rgba(13, 1, 49, 0.973);
+  display: flex;
+  justify-content: center;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-bottom: 4rem;
+  padding-top: 5rem;
+  border-radius: 1rem;
+  gap: 5rem;
+  height: 700px;
+ 
+}
+#pricing-main a{
+  text-decoration: none;
+}
+.package{
+  text-align: center;
+  background-color: #1dbf73;
+  color: #fff;
+  width: 300px;
+  height: 570px;
+  margin-top: 2.5rem;
+  border-radius: 1rem;
+  transition: transform .55s; 
+}
+.package-mid{
+  text-align: center;
+  color: #fff;
+  background-color: #1dbf73;
+  width: 350px;
+  height: 650px;
+  border-radius: 1rem;
+  transition: transform .55s; 
+}
+.package:hover {
+  transform: scale(1.05);
+}
+.package-mid:hover {
+  transform: scale(1.05); 
+}
+#pricing h2{
+  padding-top: 1rem;
+}
+#pricing h4{
+  font-size: 40px;
+}
+#pricing h5{
+  font-size: 15px;
+}
+#footer{
+  background-color: rgba(13, 1, 49, 0.973);
+  position: relative;
+  display: flex;
+  color: #fff;
+  padding: 30px 0;
+  gap: 10rem;
+  justify-content: center;
+}
+.company{
+  display: grid;
+}
+#footer a{
+  text-decoration: none;
+  color: rgb(146, 144, 144);
+  font-size: 20px;
+}
+#footer a:hover{
+  color: rgb(216, 215, 215);
+}
+.social{
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.updates{
+  display: grid;
+}
+.basic-package{
+  display: flex;
+  justify-content: center;
+  gap: 10rem;
+  color: #fff;
+  background: linear-gradient(#1f87ab, #004961 50%, #004961 90%);
+  margin: 4rem;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+#Basic h1{
+  font-size: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 5rem;
+}
+.basic-package-h1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+#Basic h4{
+  display: flex;
+  color: #fff;
+  font-size: 20px;
+ 
+}
+#Basic span{
+  color: rgb(9, 255, 21);
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.icons{
+  color: #fff;
+  padding-top: .15rem;
+  padding-right: 1rem;
+}
+.basic-package-container{
+  width: 800px;
+}
+.hide-class{
+  display: none;
+}
+.hide-class1{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-weight: 700;
+  font-size: 60px;
+}
+.toggle-button{
+  position: absolute;
+  display: none;
+  top: 1.5rem;
+  right: 2rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+.toggle-button .bar{
+  height: 3px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+}
+#aboutus{
+  padding-top: 8rem;
+  padding: 8rem 4rem;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+#aboutus h1{
+font-size: 50px;
+text-align: center;
+background: -webkit-linear-gradient(#eee, #383838);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.name{
+  font-size: 50px;
+  text-align: center;
+  background: linear-gradient(to right, red , blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.me-image{
+  padding: 2rem;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+.about-us-container{
+  width: 800px;
+  text-align: center;
+}
+.intro{
+  font-size: 20px;
+  width: 800px;
+}
+#contactme{
+  padding: 8rem;
+  padding-top: 10rem;
+  padding-bottom: 14.4rem;
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  overflow: hidden;
+}
+.right{
+
+}
+.left{
+
+}
+@media only screen and (max-width: 1200px){
+  .logos-slide2 {
+    display: inline-block;
+    animation: 35s slide infinite linear;
+  }
+  .web-development-image{
+    padding-top: 4rem;
+    width: 500px;
+    height: 300px;
+  }
+  .web-development-content{
+    text-align: center;
+    padding: 3rem;
+    width: 500px;
+  }
+  .web-development-paragraph{
+    font-size: 25px;
+    color: rgb(115, 117, 117);
+  }
+  .web-development-h2{
+    font-size: 40px;
+    color: rgb(98, 99, 99);
+  }
+  .package{
+    text-align: center;
+    background-color: #1dbf73;
+    color: #fff;
+    width: 250px;
+    height: 500px;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    transition: transform .55s; 
+  }
+  .package-mid{
+    text-align: center;
+    color: #fff;
+    background-color: #1dbf73;
+    width: 300px;
+    height: 550px;
+    border-radius: 1rem;
+    transition: transform .55s; 
+  }
+  #pricing h4{
+    font-size: 30px;
+  }
+  #pricing h5{
+    font-size: 14px;
+  }
+  #pricing{
+    height: 600px;
+    gap: 2.5rem;
+   
+  }
+  #footer{
+    padding: 30px 0;
+    gap: 5rem;
+ 
+  }
+  #Navbar{
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+  #Navbar .Schedule-a-call{
+    margin-right: 5rem;
+  }
+  .basic-package{
+    gap:1rem;
+    color: #fff;
+    padding: 1rem;
+  }
+  #Basic h1{
+    font-size: 60px;
+  }
+  #Basic h4{
+    display: flex;
+    color: #fff;
+    font-size: 20px;
+  
+  }
+  #Basic span{
+    color: rgb(9, 255, 21);
+    padding-left: .5rem;
+    padding-right: .5rem;
+  }
+  .icons{
+    color: #fff;
+    padding-top: .15rem;
+  
+  }
+  .basic-package-container{
+    width: 500px;
+  }
+  @keyframes slide{
+    from{
+      transform:translateX(0);
+    }to{
+      transform: translateX(-100%);
+    }
+  }
+}
+
+@media only screen and (max-width: 992px){
+  .Schedule-a-call{
+    display: none;
+  }
+  ul{
+    padding-right: 3rem;
+  }
+ h1{
+  font-size: 55px;
+ }
+ .web-development{
+  display: flex;
+  padding-top: 4rem;
+}
+ .web-development-image{
+  padding-top: 5rem;
+  width: 300px;
+  height: 200px;
+}
+.web-development-content{
+  text-align: center;
+  padding: 3rem;
+  width: 500px;
+}
+.web-development-paragraph{
+  font-size: 20px;
+  color: rgb(115, 117, 117);
+}
+.web-development-h2{
+  font-size: 30px;
+  color: rgb(98, 99, 99);
+}
+#pricing{
+  height: 600px;
+  gap: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+ 
+}
+.package{
+  text-align: center;
+  background-color: #1dbf73;
+  color: #fff;
+  width: 200px;
+  height: 450px;
+  margin-top: 2rem;
+  border-radius: 1rem;
+  transition: transform .55s; 
+}
+.package-mid{
+  text-align: center;
+  color: #fff;
+  background-color: #1dbf73;
+  width: 250px;
+  height: 500px;
+  border-radius: 1rem;
+  transition: transform .55s; 
+}
+#pricing h4{
+  font-size: 20px;
+}
+#pricing h5{
+  font-size: 11px;
+}
+#footer{
+  padding: 30px 0;
+  gap: 3rem;
+}
+#footer a{
+  font-size: 15px;
+}
+
+#Basic h1{
+  font-size: 40px;
+  line-height: 3rem;
+}
+.hide-class{
+  display: none;
+}
+.hide-class1{
+  font-size: 40px;
+}
+#Basic h4{
+  display: flex;
+  color: #fff;
+  font-size: 15px;
+
+}
+#Basic span{
+  color: rgb(9, 255, 21);
+  padding-left: 0rem;
+  padding-right: 0rem;
+}
+.basic-package-container{
+  width: 400px;
+}
+}
+
+@media only screen and (max-width: 768px){
+  ul{
+    display: none;
+  }
+  li{
+    display: none;
+  }
+  ul.active{
+    flex-direction: column;
+  }
+  li.active{
+    display: grid;
+    text-align: center;
+  }
+  #Navbar.active{
+    flex-direction: column;
+  }
+  .toggle-button{
+    display: flex;
+  }
+  h1{
+   font-size: 45px;
+  }
+  p{
+    font-size: 15px;
+  }
+  .web-development{
+    display: flex;
+    padding-top: 2rem;
+  }
+  .web-development-image{
+    padding-top: 5rem;
+    width: 300px;
+    height: 150px;
+  }
+  .web-development-content{
+    text-align: center;
+    padding: 2rem;
+    width: 300px;
+  }
+  .web-development-paragraph{
+    font-size: 15px;
+    color: rgb(115, 117, 117);
+  }
+  .web-development-h2{
+    font-size: 20px;
+    color: rgb(98, 99, 99);
+  }
+  #pricing{
+    height: 550px;
+    gap: 1rem;
+    margin: 0;
+    border-radius: 0;
+    margin-bottom: 2rem;
+    overflow: hidden;
+  }
+  .package{
+    text-align: center;
+    background-color: #1dbf73;
+    color: #fff;
+    width: 150px;
+    height: 450px;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    transition: transform .55s; 
+  }
+  .package-mid{
+    text-align: center;
+    color: #fff;
+    background-color: #1dbf73;
+    width: 200px;
+    height: 500px;
+    border-radius: 1rem;
+    transition: transform .55s; 
+  }
+  #pricing h4{
+    font-size: 20px;
+  }
+  #pricing h5{
+    font-size: 11px;
+  }
+  #footer{
+    display: grid;
+  }
+  #Basic h1{
+    font-size: 30px;
+    line-height: 2rem;
+  }
+  .hide-class{
+    display: none;
+  }
+  .hide-class1{
+    font-size: 30px;
+  }
+  #Basic h4{
+    display: flex;
+    color: #fff;
+    font-size: 13px;
+  
+  }
+  .basic-package-container{
+    width: 400px;
+  }
+  .basic-package{
+    margin: 2rem;
+  }
+  #aboutus{
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    gap: 1rem;
+  }
+  .intro{
+    font-size: 17px;
+    width: 400px;
+  }
+ #contactme{
+  display: grid;
+ }
+ }
+
+ @media only screen and (max-width: 576px){
+  h1{
+   font-size: 35px;
+  }
+  p{
+    font-size: 12px;
+  }
+  #services{
+    padding-top: 5rem;
+    justify-content: center;
+  }
+  .web-development{
+    display: grid;
+    justify-content: center;
+  }
+  .web-development-image{
+    display: none;
+  }
+  .web-development-content{
+    text-align: center;
+    width: 300px;
+  }
+  .web-development-paragraph{
+    font-size: 15px;
+    color: rgb(115, 117, 117);
+  }
+  .web-development-h2{
+    font-size: 20px;
+    color: rgb(98, 99, 99);
+  }
+  .web-development-image-secret{
+    display: block;
+    width: 200px;
+    height: 100px;
+    justify-self: center;
+
+  }
+  #pricing{
+    height: 550px;
+    gap: 1rem;
+  }
+  .package{
+    text-align: center;
+    background-color: #1dbf73;
+    color: #fff;
+    width: 130px;
+    height: 450px;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    transition: transform .55s; 
+  }
+  .package-mid{
+    text-align: center;
+    color: #fff;
+    background-color: #1dbf73;
+    width: 180px;
+    height: 500px;
+    border-radius: 1rem;
+    transition: transform .55s; 
+  }
+  #pricing h4{
+    font-size: 15px;
+  }
+  #pricing h5{
+    font-size: 11px;
+  }
+  .basic-package{
+    display: grid;
+  }
+ 
+  .hide-class{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  #Home-package h1{
+    line-height: 2rem;
+  }
+  .hide-class1{
+    display: none;
+  }
+  #Basic h1{
+    font-size: 30px;
+    text-align: center;
+  }
+  .basic-package-container{
+    width: fit-content;
+  }
+  #aboutus h1{
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+  }
+ }
+
+ @media only screen and (max-width: 480px){
+  h1{
+   font-size: 30px;
+   line-height: 20px;
+  }
+  p{
+    font-size: 11px;
+  }
+  #pricing{
+    height: 450px;
+    gap: 1rem;
+  }
+  .package{
+    text-align: center;
+    background-color: #1dbf73;
+    color: #fff;
+    width: 120px;
+    height: 320px;
+    margin-top: 1rem;
+    border-radius: .5rem;
+    transition: transform .55s; 
+  }
+  .package-mid{
+    text-align: center;
+    color: #fff;
+    background-color: #1dbf73;
+    width: 150px;
+    height: 350px;
+    border-radius: .5rem;
+    transition: transform .55s; 
+  }
+  #pricing h2{
+    font-size: 12px;
+  }
+  #pricing h4{
+    font-size: 11px;
+  }
+  #pricing h5{
+    font-size: 9px;
+  }
+ }
