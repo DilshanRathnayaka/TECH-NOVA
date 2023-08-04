@@ -769,7 +769,7 @@ background: -webkit-linear-gradient(#eee, #383838);
 
  @media only screen and (max-width: 480px){
   h1{
-   font-size: 30px;
+   font-size: 23px;
    line-height: 20px;
   }
   p{
